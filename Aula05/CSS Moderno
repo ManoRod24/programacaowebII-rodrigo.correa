@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Moderno</title>
+</head>
+<style>
+    body {
+        background-color: #D3D3d3;
+        background-image: url('pedra.jpg');
+        font-family: Arial, sans-serif;
+    }
+
+    .texto-azul {
+        color: rgb(0, 11, 128);
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    table td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    img {
+        border: 3px solid #000;
+    }
+
+    .coluna-numerica {
+        text-align: right;
+        font-family: 'Courier New', monospace;
+    }
+
+    footer {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div style="text-align: center;">
+       <p class="texto-azul">Status do Personagem: Yugi Muto</p>
+
+       <table>
+        <tr>
+            <td colspan="2">
+                <span class="texto-azul">Dueslista</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://uploads3.yugioh.com/character/2/detail/detail/yugi-l.png?1371660955" alt="Avatar">
+            </td>
+            <td class="coluna-numeria">    
+                    Força: 5 <br>
+                    Agilidade: 7 <br>
+                    Perks:"Ler o estilo do adversário rapidamente" nível 50<br>
+                    “Coração das Cartas” nível 40
+            </td>
+            </tr>
+       </table>
+    </div>
+    <footer> Rodrigo Correa do Nascimento - Camargo Aranha - 2026</footer>
+</body>
+</html>
